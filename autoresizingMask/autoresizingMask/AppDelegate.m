@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "TransFormViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    MainViewController *mainController = [[MainViewController alloc] init];
-    self.window.rootViewController = mainController;
+//    MainViewController *mainController = [[MainViewController alloc] init];
+//    self.window.rootViewController = mainController;
+    TransFormViewController *transFormController = [[TransFormViewController alloc] init];
+    self.window.rootViewController = transFormController;
     self.window.backgroundColor = [UIColor colorWithRed:1 green:0.6 blue:1 alpha:1];
     
     [self.window makeKeyAndVisible];

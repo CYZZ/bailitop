@@ -12,6 +12,8 @@
 		654F2B961C64867A0007A471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654F2B951C64867A0007A471 /* Assets.xcassets */; };
 		654F2B991C64867A0007A471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654F2B971C64867A0007A471 /* LaunchScreen.storyboard */; };
 		654F2BA21C64881A0007A471 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654F2BA11C64881A0007A471 /* MainViewController.m */; };
+		654F2BA51C6499E70007A471 /* TransFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654F2BA41C6499E70007A471 /* TransFormViewController.m */; };
+		6555B7C41C657B51006DC3F1 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 6555B7C31C657B51006DC3F1 /* 03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		654F2B9A1C64867A0007A471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		654F2BA01C64881A0007A471 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		654F2BA11C64881A0007A471 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		654F2BA31C6499E70007A471 /* TransFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransFormViewController.h; sourceTree = "<group>"; };
+		654F2BA41C6499E70007A471 /* TransFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransFormViewController.m; sourceTree = "<group>"; };
+		6555B7C31C657B51006DC3F1 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,8 @@
 				654F2B8D1C64867A0007A471 /* AppDelegate.m */,
 				654F2BA01C64881A0007A471 /* MainViewController.h */,
 				654F2BA11C64881A0007A471 /* MainViewController.m */,
+				654F2BA31C6499E70007A471 /* TransFormViewController.h */,
+				654F2BA41C6499E70007A471 /* TransFormViewController.m */,
 				654F2B951C64867A0007A471 /* Assets.xcassets */,
 				654F2B971C64867A0007A471 /* LaunchScreen.storyboard */,
 				654F2B9A1C64867A0007A471 /* Info.plist */,
@@ -71,6 +78,7 @@
 		654F2B891C64867A0007A471 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6555B7C31C657B51006DC3F1 /* 03.png */,
 				654F2B8A1C64867A0007A471 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -134,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				654F2B991C64867A0007A471 /* LaunchScreen.storyboard in Resources */,
+				6555B7C41C657B51006DC3F1 /* 03.png in Resources */,
 				654F2B961C64867A0007A471 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +157,7 @@
 				654F2B8E1C64867A0007A471 /* AppDelegate.m in Sources */,
 				654F2BA21C64881A0007A471 /* MainViewController.m in Sources */,
 				654F2B8B1C64867A0007A471 /* main.m in Sources */,
+				654F2BA51C6499E70007A471 /* TransFormViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +296,7 @@
 				654F2B9F1C64867A0007A471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
