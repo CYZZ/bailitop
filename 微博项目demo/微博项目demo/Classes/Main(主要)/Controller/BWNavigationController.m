@@ -23,13 +23,13 @@
     // key:NS***AttributeName
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
     textAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor]; // 字体颜色
-    textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:13]; // 字体大小
+    textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:30]; // 字体大小
     [item setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
     
     // 设置不可用状态
     NSMutableDictionary *disableTextAttrs = [NSMutableDictionary dictionary];
     disableTextAttrs[NSForegroundColorAttributeName] = [UIColor colorWithRed:0.6 green:0.6 blue:0.6 alpha:0.7];
-    disableTextAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:13];
+    disableTextAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:20];
     [item setTitleTextAttributes:disableTextAttrs forState:UIControlStateDisabled];
 }
 
@@ -59,6 +59,7 @@
         // 设置左边的返回按钮
         viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(back) image:@"navigationbar_back" highImage:@"navigationbar_back_highlighted"];
         // 设置右边的更多按钮
+        
         viewController.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(more) image:@"navigationbar_more" highImage:@"navigationbar_more_highlighted"];
     }
     // 重写父类的push方法
